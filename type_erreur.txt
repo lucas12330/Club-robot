@@ -1,0 +1,13 @@
+Ce fichier .txt est un répertoire des Type, qui sont des code annonçant une érreur ou une réussite
+Il est normalement posssible de lire les Type via le canal de port série 2.
+En norme d'utilisation pour le port série 1, mettre le message en premier puis mettre "Type" + numéro de l'erreur ou de la réussite
+
+
+
+1: Initialisation et test termine. Type:1
+17: Le shield Moteur est trouvé. Type:17
+201: Motor Shield introuvable. Verifie la connexion. type:201
+255: Autre
+
+A noté que le Type: 255 définit les messages de test ou bien dee temporalisation.On peux l'utiliser pour tout sauf les
+érreur et réussite définit par un type.
